@@ -58,6 +58,7 @@ public class CompareXML {
         	String F2 = difference.getControlNodeDetail().getValue();
         	String Path = difference.getControlNodeDetail().getXpathLocation();
         	System.out.printf(F1, F2, Path);
+        	System.out.printf(heyyy);
             
         }
         printLine(10);
